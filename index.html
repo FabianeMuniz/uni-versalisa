@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Peças artesanais feitas à mão pela Uni.versalisa. Mandalas, brincos, chaveiros e acessórios.">
+  <title>Uni.versalisa | Arte, natureza e equilíbrio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <div class="modal-overlay" id="product-modal" aria-hidden="true">
+    <div
+      class="product-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <button
+        class="modal-close"
+        id="modal-close"
+        type="button"
+        aria-label="Fechar detalhes"
+      >×</button>
+
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" data-page="inicio" aria-label="Uni.versalisa - início">
+      
+      <span class="brand-sun" aria-hidden="true"> 
+        <img
+        class="brand-sun"
+        src="image/logotipofinalizado.png"
+        alt=""
+        >
+      </span>
+      <span class="brand-copy"><span class="brand-name">Uni.versalisa</span><span class="brand-tagline">ARTE · NATUREZA · EQUILÍBRIO</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Menu principal">
+      <button class="nav-link active" data-page="inicio">Início</button>
+      <button class="nav-link" data-page="mandala-pintada">Mandala pintada</button>
+      <button class="nav-link" data-page="mandala-tecida">Mandala tecida</button>
+      <button class="nav-link" data-page="chaveiro">Chaveiro</button>
+      <button class="nav-link" data-page="brincos">Brincos</button>
+      <button class="nav-link" data-page="acessorios">Acessórios</button>
+      <button class="nav-link" data-page="sobre">Sobre mim</button>
+    </nav>
+    <a class="instagram-link" href="https://www.instagram.com/uni.versalisa/" target="_blank" rel="noreferrer">◎ <span>Instagram</span></a>
+  </header>
+
+  <main>
+
+    
+    <section class="banner-carousel" id="banner-carousel" aria-label="Destaques da loja">
+      <div class="banner-track">
+
+        <article class="banner-slide active"
+          style="--banner-image: url('image/banner/bannerinicial2.png')">
+        </article>
+
+        <article class="banner-slide"
+          style="--banner-image: url('image/banner/blackfriday.png')">
+        </article>
+
+        <article class="banner-slide"
+          style="--banner-image: url('image/banner/bannercupomprimeiracompra.png')">
+        </article>
+
+      </div>
+
+      <button class="banner-arrow banner-prev"
+        type="button" aria-label="Banner anterior">‹</button>
+      <button class="banner-arrow banner-next"
+        type="button" aria-label="Próximo banner">›</button>
+
+      <div class="banner-indicators" aria-label="Selecionar banner">
+        <button class="active" type="button" aria-label="Banner 1"></button>
+        <button type="button" aria-label="Banner 2"></button>
+        <button type="button" aria-label="Banner 3"></button>
+      </div>
+    </section>
+
+    <section class="page active" id="page-inicio" aria-labelledby="hero-title">
+      <div class="hero">
+        <div class="ornament" aria-hidden="true">—　☼　—</div>
+        <p class="eyebrow">FEITO À MÃO, COM INTENÇÃO</p>
+        <h1 id="hero-title">Arte feita à mão, com significado</h1>
+        <p class="hero-subtitle">Peças únicas para levar beleza e intenção ao seu dia.</p>
+      </div>
+      <div class="product-grid" id="featured-products"></div>
+    </section>
+
+    <section class="page" id="page-categoria" aria-labelledby="category-title">
+      <div class="section-heading">
+        <p class="eyebrow">PEÇAS ARTESANAIS</p>
+        <h1 id="category-title">Catálogo</h1>
+        <p id="category-description">Encontre uma peça feita para você.</p>
+      </div>
+      <div class="product-grid" id="category-products"></div>
+    </section>
+
+    <section class="page about-page" id="page-sobre" aria-labelledby="about-title">
+      <div class="about-art" aria-hidden="true">
+        <img
+        class="about-art-img"
+        src="image/sobremim.png"
+        alt=""
+      >
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">UM POUCO DA MINHA HISTÓRIA</p>
+        <h1 id="about-title">Sobre mim</h1>
+        <p>A Uni.versalisa nasceu do encontro entre arte, natureza e o prazer de criar com as mãos.</p>
+        <p>Cada peça é feita com cuidado, respeitando o tempo do processo artesanal e celebrando as pequenas singularidades que tornam cada criação especial.</p>
+        <p>Este espaço é um convite para conhecer meu trabalho e encontrar uma peça que converse com você.</p>
+        <a class="button-link" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">Vamos conversar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-ornament" aria-hidden="true">──── ❧ ☼ ❧ ────</div>
+    <p>Uni.versalisa · Arte feita à mão com significado</p>
+    <p class="footer-small">Peças artesanais · Consulte disponibilidade e prazo de produção</p>
+  </footer>
+</body>
+</html>
