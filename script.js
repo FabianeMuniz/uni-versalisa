@@ -1047,6 +1047,11 @@ function setupGalleries() {
 }
 
 function showPage(page) {
+  const banner = document.getElementById('banner-carousel');
+
+    if (banner) {
+        banner.style.display = page === 'inicio' ? 'block' : 'none';
+    }
   document.querySelectorAll(".page").forEach(section => section.classList.remove("active"));
   document.querySelectorAll(".nav-link").forEach(button => {
     button.classList.toggle("active", button.dataset.page === page);
