@@ -244,7 +244,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Gênese do Equilíbrio",
+    name: "Mandala em Pintura - Gênese do Equilíbrio",
     description: "Entre Sol e Lua, fogo e água, quatro mandalas Olho de Deus se conectam em uma composição que simboliza o equilíbrio entre forças opostas e complementares.",
     details: "Quadro de vidro com 50cm x 45cm. Obra exclusiva e feita à mão. Composta por mandalas tecidas e bordadas com lã, utilizando a técnica Ojo de Dios. Reage à luz UV.",
     price: 800.00,
@@ -254,7 +254,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Átomo Pixelado",
+    name: "Mandala em Pintura - Átomo Pixelado",
     description: "Uma obra que conecta arte têxtil, geometria e estética futurista, com cores fluorescentes e formas inspiradas no universo digital.",
     details: "Quadro de vidro com 30cm x 30cm. Obra exclusiva e feita à mão. Mandalas tecidas e bordadas com lã, utilizando a técnica Ojo de Dios. Reage à luz UV.",
     price: 400.00,
@@ -264,7 +264,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Visão do Divino: Expansão da Consciência",
+    name: "Mandala em Pintura - Visão do Divino: Expansão da Consciência",
     description: "Uma obra que une geometria sagrada e espiritualidade, representando proteção, percepção e expansão da consciência por meio da Merkaba e do simbolismo do olho.",
     details: "Peça em MDF com 70cm x 70cm. Obra exclusiva e feita à mão. Reage à luz UV.",
     price: 800.00,
@@ -274,7 +274,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Visão Psicodélica",
+    name: "Mandala em Pintura - Visão Psicodélica",
     description: "Uma composição de cores fluorescentes, pontilhismo e geometria que representa o despertar da consciência e a descoberta de novas perspectivas.",
     details: "Peça em MDF com 50cm x 50cm. Obra exclusiva e feita à mão. Reage à luz UV.",
     price: 300.00,
@@ -284,7 +284,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Merkaba & Flor da Vida",
+    name: "Mandala em Pintura - Merkaba & Flor da Vida",
     description: "A união da Merkaba com a Flor da Vida representa proteção, expansão da consciência e conexão universal em uma composição de cores quentes e frias.",
     details: "Peça em MDF com 30cm x 30cm. Obra exclusiva e feita à mão. Reage à luz UV.",
     price: 250.00,
@@ -294,7 +294,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Flor da Consciência",
+    name: "Mandala em Pintura - Flor da Consciência",
     description: "Tons de violeta e detalhes amarelos se encontram em uma composição que celebra a espiritualidade, a criatividade e o florescimento da consciência.",
     details: "Peça em MDF com 70cm x 70cm. Obra exclusiva e feita à mão. Possui detalhes com espelhos.",
     price: 500.00,
@@ -304,7 +304,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Gaia",
+    name: "Mandala em Pintura - Gaia",
     description: "Inspirada na energia da Terra, combina tons de verde e formas geométricas para transmitir equilíbrio, renovação e conexão com a natureza.",
     details: "Peça em MDF com 54cm x 54cm. Obra exclusiva e feita à mão. Possui detalhes com espelhos.",
     price: 400.00,
@@ -314,7 +314,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Elementar",
+    name: "Mandala em Pintura - Elementar",
     description: "Inspirada nos quatro elementos da natureza, combina Terra, Água, Fogo e Ar em uma composição que celebra conexão, equilíbrio e harmonia.",
     details: "Peça em MDF com 50cm x 50cm. Obra exclusiva e feita à mão.",
     price: 280.00,
@@ -324,7 +324,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Reflexo da Criação",
+    name: "Mandala em Pintura - Reflexo da Criação",
     description: "Na geometria da vida, cada forma reflete o todo e cada ponto de luz revela uma nova perspectiva do universo.",
     details: "Peça em MDF com 30cm x 30cm. Obra exclusiva e feita à mão. Possui detalhes com espelhos.",
     price: 200.00,
@@ -334,7 +334,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Terra Sagrada",
+    name: "Mandala em Pintura - Terra Sagrada",
     description: "Uma obra que representa a conexão com as origens, unindo geometria e matéria em uma composição de força e equilíbrio.",
     details: "Peça em MDF com 25cm x 25cm. Obra exclusiva e feita à mão.",
     price: 100.00,
@@ -344,7 +344,7 @@ const products = [
   },
   {
     category: "mandala-pintada",
-    name: "Mandala pintada - Sol Verde",
+    name: "Mandala em Pintura - Sol Verde",
     description: "Inspirada na geometria sagrada e na força da natureza, combina tons de verde e detalhes amarelos para representar vitalidade e harmonia.",
     details: "Peça em MDF com 30cm x 30cm. Obra exclusiva e feita à mão. Possui detalhes com espelhos.",
     price: 130.00,
@@ -801,7 +801,7 @@ const products = [
 ];
 
 const categoryNames = {
-  "mandala-pintada": "Mandala pintada",
+  "mandala-pintada": "Mandala em Pintura",
   "mandala-tecida": "Mandala tecida",
   "chaveiro": "Chaveiros",
   "brincos": "Brincos",
